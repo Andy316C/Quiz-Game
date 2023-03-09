@@ -12,4 +12,4 @@ Name: Andrew Clark<br>
 Phone: 6196 992099
 ## Link
 Click below to play the Quiz Champion game.<br>
-<a href="">Quiz Champion</a>
+<a href="https://andy316c.github.io/Quiz-Game/">Quiz Champion</a>
