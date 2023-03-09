@@ -33,7 +33,7 @@ answerBox.style.display= "none";
 retryBtn.style.display="none";
 startdiv.style.margin= "10px";
 answerBox.style.width= "30%";
-guess.style= "margin-left: -6%";
+guess.style= "display: none";
 head1.style= "margin-left: -3%";
 var timer = 60;
 
@@ -55,6 +55,7 @@ function countDown(){
         answerBox.value= "you have not answered all the questions correctly in time";
         answerBox.style.width= "50%";
         answerBox.readOnly= "true";
+        guess.style= "display: inline";
         return countDown;
         }
     },1000);
@@ -215,6 +216,7 @@ function Quests(){
         answerBox.value= "you have answered all the questions correctly in time";
         answerBox.style.width= "50%";
         answerBox.readOnly= "true";
+        guess.style= "display: inline";
     }
 }
 
